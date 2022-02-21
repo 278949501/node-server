@@ -1,0 +1,926 @@
+2022-02-16 11:33:00,357 ERROR 8300 [-/127.0.0.1/-/21051ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":31,"createSocketErrorCount":0,"closeSocketCount":30,"errorSocketCount":1,"timeoutSocketCount":30,"requestCount":31,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21050,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 8300
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 11:36:38,264 ERROR 15424 [-/undefined/-/21022ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":3},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21016,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 15424
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 11:36:42,656 ERROR 15424 [-/undefined/-/21004ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21003,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 15424
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 11:36:42,983 ERROR 15424 [-/undefined/-/21004ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":3},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21004,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 15424
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 11:37:50,690 ERROR 7024 [-/undefined/-/21023ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":3},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21017,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 7024
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 11:38:07,879 ERROR 7024 [-/undefined/-/21005ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":3},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21004,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 7024
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 11:38:10,642 ERROR 7024 [-/undefined/-/21002ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":2},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21002,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 7024
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 11:38:14,405 ERROR 7024 [-/127.0.0.1/-/21005ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":4,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21003,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 7024
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 13:44:33,329 ERROR 8680 [-/undefined/-/21021ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":2},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21015,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 8680
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 13:44:42,804 ERROR 8680 [-/undefined/-/21005ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":2,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":2},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21003,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 8680
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 13:44:54,728 ERROR 8680 [-/192.168.11.186/-/21003ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":33,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":3,"timeoutSocketCount":0,"requestCount":62,"freeSockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":30},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21001,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 8680
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:37:57,998 ERROR 16188 [-/127.0.0.1/-/4ms GET /] nodejs.Template render error: (C:\Users\liuqi\work\node-server\app\view\home\index.tpl) [Line 5, Column 30]
+  Error: Unable to call `app["utils"]["GetRandom"]["random"]`, which is undefined or falsey
+  Error: Unable to call `app["utils"]["GetRandom"]["random"]`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:563:19
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:15:11)
+    at b_content (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:41:3)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:14:86)
+    at b_title (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:35:1)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:10:84)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:20:16)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:46)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:86)
+name: "Template render error"
+pid: 16188
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:38:12,269 ERROR 16188 [-/127.0.0.1/-/4ms GET /] nodejs.Template render error: (C:\Users\liuqi\work\node-server\app\view\home\index.tpl) [Line 5, Column 16]
+  Error: Unable to call `console["log"]`, which is undefined or falsey
+  Error: Unable to call `console["log"]`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:563:19
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:15:11)
+    at b_content (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:41:3)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:14:86)
+    at b_title (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:35:1)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:10:84)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:20:16)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:46)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:86)
+name: "Template render error"
+pid: 16188
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:38:19,824 ERROR 16188 [-/127.0.0.1/-/2ms GET /] nodejs.Template render error: (C:\Users\liuqi\work\node-server\app\view\home\index.tpl) [Line 5, Column 16]
+  Error: Unable to call `console["log"]`, which is undefined or falsey
+  Error: Unable to call `console["log"]`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:563:19
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:15:11)
+    at b_content (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:41:3)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:14:86)
+    at b_title (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:35:1)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:10:84)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:20:16)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:46)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:86)
+name: "Template render error"
+pid: 16188
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:39:42,220 ERROR 16188 [-/127.0.0.1/-/2ms GET /] nodejs.Template render error: (C:\Users\liuqi\work\node-server\app\view\home\index.tpl) [Line 6, Column 6]
+  unexpected token: }}
+  unexpected token: }}
+    at Object._prettifyError (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\lib.js:36:11)
+    at Template.render (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:538:21)
+    at C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:366:27
+    at createTemplate (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:315:9)
+    at handle (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:327:11)
+    at C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:339:9
+    at next (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\lib.js:328:7)
+    at Object.asyncIter (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\lib.js:334:3)
+    at NunjucksEnvironment.getTemplate (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:321:9)
+    at NunjucksEnvironment.render (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:360:10)
+name: "Template render error"
+pid: 16188
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:42:51,292 ERROR 14952 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: (C:\Users\liuqi\work\node-server\app\view\home\index.tpl) [Line 5, Column 31]
+  Error: Unable to call `app["utils"]["GetRandom"]["random"]`, which is undefined or falsey
+  Error: Unable to call `app["utils"]["GetRandom"]["random"]`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:563:19
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:15:11)
+    at b_content (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:41:3)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:14:86)
+    at b_title (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:35:1)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:10:84)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:20:16)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:46)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:86)
+name: "Template render error"
+pid: 14952
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:42:53,827 ERROR 14952 [-/127.0.0.1/-/3ms GET /] nodejs.Template render error: (C:\Users\liuqi\work\node-server\app\view\home\index.tpl) [Line 5, Column 31]
+  Error: Unable to call `app["utils"]["GetRandom"]["random"]`, which is undefined or falsey
+  Error: Unable to call `app["utils"]["GetRandom"]["random"]`, which is undefined or falsey
+    at Object._prettifyError (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\lib.js:36:11)
+    at C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:563:19
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:15:11)
+    at b_content (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:41:3)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:14:86)
+    at b_title (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:35:1)
+    at Template.root [as rootRenderFunc] (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:10:84)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:20:16)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:46)
+    at eval (eval at _compile (C:\Users\liuqi\work\node-server\node_modules\nunjucks\src\environment.js:633:18), <anonymous>:16:86)
+name: "Template render error"
+pid: 14952
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:47:10,306 ERROR 4064 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new GetRandom (C:\Users\liuqi\work\node-server\app\utils\getRandom.js:4:21)
+    at HomeController.index (C:\Users\liuqi\work\node-server\app\controller\home.js:9:21)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 4064
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:48:11,361 ERROR 6180 [-/127.0.0.1/-/4ms GET /] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new GetRandom (C:\Users\liuqi\work\node-server\app\utils\getRandom.js:4:21)
+    at HomeController.index (C:\Users\liuqi\work\node-server\app\controller\home.js:9:21)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 6180
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:48:13,457 ERROR 6180 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new GetRandom (C:\Users\liuqi\work\node-server\app\utils\getRandom.js:4:21)
+    at HomeController.index (C:\Users\liuqi\work\node-server\app\controller\home.js:9:21)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 6180
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 15:48:14,111 ERROR 6180 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'config' of undefined
+    at new GetRandom (C:\Users\liuqi\work\node-server\app\utils\getRandom.js:4:21)
+    at HomeController.index (C:\Users\liuqi\work\node-server\app\controller\home.js:9:21)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 6180
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:21:08,802 ERROR 12324 [-/127.0.0.1/-/10ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 12324
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:24:31,262 ERROR 10260 [-/127.0.0.1/-/8ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 10260
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:24:32,165 ERROR 10260 [-/127.0.0.1/-/3ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 10260
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:24:33,165 ERROR 10260 [-/127.0.0.1/-/3ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 10260
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:24:42,522 ERROR 10476 [-/127.0.0.1/-/8ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 10476
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:25:17,407 ERROR 2312 [-/127.0.0.1/-/30ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 2312
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:25:25,225 ERROR 12564 [-/127.0.0.1/-/28ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 12564
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:25:45,631 ERROR 12448 [-/127.0.0.1/-/26ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 12448
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:26:25,427 ERROR 18392 [-/127.0.0.1/-/9ms GET /] nodejs.Error: non-error thrown: false
+    at Object.app.context.onerror (C:\Users\liuqi\work\node-server\node_modules\koa-onerror\index.js:46:24)
+    at onerror (C:\Users\liuqi\work\node-server\node_modules\koa\lib\application.js:165:32)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+
+pid: 18392
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 16:32:11,310 ERROR 18268 [-/127.0.0.1/-/9ms GET /] nodejs.AssertionError: Can't find Hello World from C:\Users\liuqi\work\node-server\app\view
+    at Map.resolve (C:\Users\liuqi\work\node-server\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (C:\Users\liuqi\work\node-server\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (C:\Users\liuqi\work\node-server\app\controller\home.js:14:3)
+    at async C:\Users\liuqi\work\node-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\liuqi\work\node-server\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 18268
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:20:50,786 ERROR 14848 [-/127.0.0.1/-/9ms GET /] nodejs.AssertionError: Can't find Hello World from C:\Users\liuqi\work\node-server\app\view
+    at Map.resolve (C:\Users\liuqi\work\node-server\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (C:\Users\liuqi\work\node-server\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (C:\Users\liuqi\work\node-server\app\controller\home.js:14:3)
+    at async C:\Users\liuqi\work\node-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\liuqi\work\node-server\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14848
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:20:52,569 ERROR 14848 [-/127.0.0.1/-/2ms GET /] nodejs.AssertionError: Can't find Hello World from C:\Users\liuqi\work\node-server\app\view
+    at Map.resolve (C:\Users\liuqi\work\node-server\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (C:\Users\liuqi\work\node-server\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (C:\Users\liuqi\work\node-server\app\controller\home.js:14:3)
+    at async C:\Users\liuqi\work\node-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\liuqi\work\node-server\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14848
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:21:04,176 ERROR 14848 [-/127.0.0.1/-/3ms GET /] nodejs.AssertionError: Can't find Hello World from C:\Users\liuqi\work\node-server\app\view
+    at Map.resolve (C:\Users\liuqi\work\node-server\node_modules\egg-view\lib\view_manager.js:74:5)
+    at async ContextView.[contextView#render] (C:\Users\liuqi\work\node-server\node_modules\egg-view\lib\context_view.js:50:22)
+    at async HomeController.index (C:\Users\liuqi\work\node-server\app\controller\home.js:14:3)
+    at async C:\Users\liuqi\work\node-server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\liuqi\work\node-server\node_modules\koa-bodyparser\index.js:95:5)
+generatedMessage: false
+code: "ERR_ASSERTION"
+actual: undefined
+expected: true
+operator: "=="
+pid: 14848
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:23:08,789 WARN 15880 [-/127.0.0.1/-/1ms POST /api/posts] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-16 17:23:08,791 WARN 15880 [-/127.0.0.1/-/2ms POST /api/posts] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 15880
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:23:55,516 WARN 18520 [-/127.0.0.1/-/3ms POST /api/posts] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-16 17:23:55,517 WARN 18520 [-/127.0.0.1/-/4ms POST /api/posts] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 18520
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:27:09,571 WARN 12580 [-/127.0.0.1/-/2ms POST /api/posts] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-16 17:27:09,573 WARN 12580 [-/127.0.0.1/-/3ms POST /api/posts] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 12580
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:27:33,794 WARN 5636 [-/127.0.0.1/-/2ms POST /api/posts] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-16 17:27:33,796 WARN 5636 [-/127.0.0.1/-/3ms POST /api/posts] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 5636
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:28:17,048 WARN 2228 [-/127.0.0.1/-/2ms POST /api/posts] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-16 17:28:17,049 WARN 2228 [-/127.0.0.1/-/4ms POST /api/posts] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 2228
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:30:38,581 ERROR 19348 [-/127.0.0.1/-/4ms POST /api/posts] nodejs.TypeError: ctx.validate is not a function
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:10:7)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 19348
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:31:59,856 ERROR 11620 [-/127.0.0.1/-/8ms POST /api/posts] nodejs.TypeError: ctx.validate is not a function
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:7)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 11620
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:32:49,873 ERROR 6760 [-/127.0.0.1/-/7ms POST /api/posts] nodejs.TypeError: ctx.validate is not a function
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:7)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 6760
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:33:33,361 WARN 704 [-/127.0.0.1/-/3ms POST /api/posts] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-16 17:33:33,362 WARN 704 [-/127.0.0.1/-/4ms POST /api/posts] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 704
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:33:44,158 ERROR 1896 [-/127.0.0.1/-/7ms POST /api/posts] nodejs.TypeError: ctx.validate is not a function
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:7)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 1896
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:35:58,917 ERROR 18216 [-/127.0.0.1/-/7ms POST /api/posts] nodejs.TypeError: validate is not a function
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:3)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 18216
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:36:20,304 ERROR 9252 [-/127.0.0.1/-/18ms POST /api/posts] nodejs.TypeError: validate is not a function
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:3)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 9252
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:39:32,775 ERROR 19472 [-/127.0.0.1/-/7ms POST /api/posts] nodejs.TypeError: ctx.validate is not a function
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:7)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 19472
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:41:10,003 WARN 8872 [-/127.0.0.1/-/7ms POST /api/posts] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\liuqi\work\node-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:7)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"content","code":"missing_field"}]
+pid: 8872
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:43:12,360 WARN 8872 [-/127.0.0.1/-/4ms POST /api/posts] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\liuqi\work\node-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:7)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"content","code":"missing_field"}]
+pid: 8872
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:43:25,049 WARN 17100 [-/127.0.0.1/-/8ms POST /api/posts] nodejs.UnprocessableEntityError: Validation Failed
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.validate (C:\Users\liuqi\work\node-server\node_modules\egg-validate\app\extend\context.js:14:17)
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:11:7)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+message: "Validation Failed"
+code: "invalid_param"
+errors: [{"message":"required","field":"title","code":"missing_field"},{"message":"required","field":"content","code":"missing_field"}]
+pid: 17100
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:44:20,926 ERROR 17100 [-/127.0.0.1/-/14ms POST /api/posts] nodejs.TypeError: Cannot read property 'create' of undefined
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:16:34)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 17100
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:45:28,578 ERROR 15832 [-/127.0.0.1/-/15ms POST /api/posts] nodejs.ReferenceError: res is not defined
+    at PostController.create (C:\Users\liuqi\work\node-server\app\controller\post.js:18:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 15832
+hostname: DESKTOP-BJSIQE6
+
+2022-02-16 17:52:18,956 ERROR 9256 [-/127.0.0.1/-/6ms POST /api/wxtoken] nodejs.ReferenceError: app is not defined
+    at WxController.validateToken (C:\Users\liuqi\work\node-server\app\controller\wx.js:7:21)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+
+pid: 9256
+hostname: DESKTOP-BJSIQE6
+
+2022-02-21 16:23:28,149 WARN 12504 [-/127.0.0.1/-/15ms POST /api/posts] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-21 16:23:28,150 WARN 12504 [-/127.0.0.1/-/16ms POST /api/posts] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 12504
+hostname: DESKTOP-BJSIQE6
+
+2022-02-21 16:23:35,597 WARN 12504 [-/127.0.0.1/-/1ms POST /posts] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-21 16:23:35,597 WARN 12504 [-/127.0.0.1/-/1ms POST /posts] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 12504
+hostname: DESKTOP-BJSIQE6
+
+2022-02-21 16:23:44,651 WARN 12504 [-/127.0.0.1/-/0ms POST /posts] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-21 16:23:44,652 WARN 12504 [-/127.0.0.1/-/1ms POST /posts] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 12504
+hostname: DESKTOP-BJSIQE6
+
+2022-02-21 16:25:34,212 WARN 14624 [-/127.0.0.1/-/11ms POST /posts] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2022-02-21 16:25:34,213 WARN 14624 [-/127.0.0.1/-/12ms POST /posts] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\liuqi\work\node-server\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\liuqi\work\node-server\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\liuqi\work\node-server\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\liuqi\work\node-server\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 14624
+hostname: DESKTOP-BJSIQE6
+
+2022-02-21 16:26:07,058 ERROR 9768 [-/127.0.0.1/-/12ms POST /posts] nodejs.ReferenceError: crypto is not defined
+    at WxController.check (C:\Users\liuqi\work\node-server\app\controller\wx.js:20:20)
+    at WxController.index (C:\Users\liuqi\work\node-server\app\controller\wx.js:11:18)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 9768
+hostname: DESKTOP-BJSIQE6
+
+2022-02-21 16:26:39,457 ERROR 10036 [-/127.0.0.1/-/11ms POST /api/wxtoken] nodejs.ReferenceError: crypto is not defined
+    at WxController.check (C:\Users\liuqi\work\node-server\app\controller\wx.js:20:20)
+    at WxController.index (C:\Users\liuqi\work\node-server\app\controller\wx.js:11:18)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 10036
+hostname: DESKTOP-BJSIQE6
+
+2022-02-21 16:28:01,997 ERROR 16444 [-/127.0.0.1/-/12ms POST /api/wxtoken] nodejs.ReferenceError: crypto is not defined
+    at WxController.check (C:\Users\liuqi\work\node-server\app\controller\wx.js:20:20)
+    at WxController.index (C:\Users\liuqi\work\node-server\app\controller\wx.js:11:18)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 16444
+hostname: DESKTOP-BJSIQE6
+
+2022-02-21 16:47:47,932 ERROR 11952 [-/127.0.0.1/-/12ms POST /api/wxtoken] nodejs.ReferenceError: crypto is not defined
+    at WxController.check (C:\Users\liuqi\work\node-server\app\controller\wx.js:20:20)
+    at WxController.index (C:\Users\liuqi\work\node-server\app\controller\wx.js:11:18)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+
+pid: 11952
+hostname: DESKTOP-BJSIQE6
+
