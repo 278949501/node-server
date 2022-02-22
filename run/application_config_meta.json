@@ -34,7 +34,7 @@
       "queryName": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-security\\config\\config.default.js",
       "refererWhiteList": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-security\\config\\config.default.js"
     },
-    "domainWhiteList": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "C:\\Users\\liuqi\\work\\node-server\\config\\config.default.js",
     "protocolWhiteList": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-security\\config\\config.default.js",
     "defaultMiddleware": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-security\\config\\config.default.js",
     "xframe": {
@@ -171,6 +171,7 @@
     "cache": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
   },
   "validate": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-validate\\config\\config.default.js",
+  "cors": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cors\\config\\config.default.js",
   "env": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
   "name": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
   "cookies": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
@@ -189,6 +190,7 @@
       "co-wechat": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
       "crypto": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
       "egg": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
       "egg-validate": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js",
       "moment": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\config\\config.default.js"

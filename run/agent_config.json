@@ -8,7 +8,10 @@
       "logValue": true
     },
     "security": {
-      "domainWhiteList": [],
+      "domainWhiteList": [
+        "http://127.0.0.1:7001",
+        "http://192.168.11.186:3000"
+      ],
       "protocolWhiteList": [],
       "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
       "csrf": {
@@ -165,6 +168,7 @@
       "cache": false
     },
     "validate": {},
+    "cors": {},
     "env": "local",
     "name": "hackernews",
     "keys": "<String len: 16>",
@@ -184,6 +188,7 @@
         "co-wechat": "^2.4.0",
         "crypto": "^1.0.1",
         "egg": "^2.0.0",
+        "egg-cors": "^2.2.3",
         "egg-validate": "^2.0.2",
         "egg-view-nunjucks": "^2.1.4",
         "moment": "^2.19.2"
@@ -493,6 +498,17 @@
       "from": "C:\\Users\\liuqi\\work\\node-server\\config\\plugin.js",
       "path": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-validate",
       "version": "2.0.2"
+    },
+    "cors": {
+      "enable": true,
+      "package": "egg-cors",
+      "name": "cors",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\liuqi\\work\\node-server\\config\\plugin.js",
+      "path": "C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cors",
+      "version": "2.2.3"
     }
   }
 }

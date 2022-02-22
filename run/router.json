@@ -92,8 +92,34 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/test/write",
+    "regexp": "/^\\/test\\/write(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api/wxtoken",
     "regexp": "/^\\/api\\/wxtoken(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/wxsign",
+    "regexp": "/^\\/api\\/wxsign(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

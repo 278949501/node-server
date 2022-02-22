@@ -33,6 +33,7 @@ module.exports = appInfo => {
 		csrf: {
 			ignore: '/api/wxtoken',
 		},
+		domainWhiteList: ['http://127.0.0.1:7001', 'http://192.168.11.186:3000'],
 	}
 
 	return config

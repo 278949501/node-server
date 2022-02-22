@@ -801,3 +801,129 @@ hostname: DESKTOP-BJSIQE6
 pid: 11952
 hostname: DESKTOP-BJSIQE6
 
+2022-02-22 09:52:28,882 ERROR 24556 [-/127.0.0.1/-/5ms GET /api/wxsign] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../config/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wx.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wx.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wx.js:31:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wx.js:29:9)
+    at WxController.sign (C:\Users\liuqi\work\node-server\app\controller\wx.js:104:27)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wx.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 24556
+hostname: DESKTOP-BJSIQE6
+
+2022-02-22 10:03:44,318 ERROR 2576 [-/127.0.0.1/-/5ms GET /api/wxsign] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../config/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wx.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wx.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wx.js:33:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wx.js:31:9)
+    at WxController.sign (C:\Users\liuqi\work\node-server\app\controller\wx.js:106:27)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wx.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 2576
+hostname: DESKTOP-BJSIQE6
+
+2022-02-22 10:04:32,258 ERROR 10320 [-/127.0.0.1/-/5ms GET /api/wxsign] nodejs.SyntaxError: C:\Users\liuqi\work\node-server\config\wxConfig\accessToken.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wx.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wx.js:32:9)
+    at WxController.sign (C:\Users\liuqi\work\node-server\app\controller\wx.js:107:27)
+
+pid: 10320
+hostname: DESKTOP-BJSIQE6
+
+2022-02-22 11:09:23,174 ERROR 7092 [-/127.0.0.1/-/4ms GET /api/wxsign] nodejs.SyntaxError: C:\Users\liuqi\work\node-server\config\wxConfig\accessToken.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wx.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wx.js:32:9)
+    at WxController.sign (C:\Users\liuqi\work\node-server\app\controller\wx.js:111:27)
+
+pid: 7092
+hostname: DESKTOP-BJSIQE6
+
+2022-02-22 11:12:15,292 ERROR 23156 [-/127.0.0.1/-/5ms GET /api/wxsign] nodejs.SyntaxError: C:\Users\liuqi\work\node-server\config\wxConfig\accessToken.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wx.js:35:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wx.js:32:9)
+    at WxController.sign (C:\Users\liuqi\work\node-server\app\controller\wx.js:112:27)
+
+pid: 23156
+hostname: DESKTOP-BJSIQE6
+
+2022-02-22 11:13:29,033 ERROR 7860 [-/127.0.0.1/-/5ms GET /api/wxsign] nodejs.SyntaxError: C:\Users\liuqi\work\node-server\config\wxConfig\accessToken.json: Unexpected end of JSON input
+    at parse (<anonymous>)
+    at Object.Module._extensions..json (internal/modules/cjs/loader.js:1128:22)
+    at Module.load (internal/modules/cjs/loader.js:950:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:790:14)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wx.js:35:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wx.js:32:9)
+    at WxController.sign (C:\Users\liuqi\work\node-server\app\controller\wx.js:112:27)
+
+pid: 7860
+hostname: DESKTOP-BJSIQE6
+

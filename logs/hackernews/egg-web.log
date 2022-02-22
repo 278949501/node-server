@@ -2134,3 +2134,759 @@ hostname: DESKTOP-BJSIQE6
 2022-02-21 17:20:17,063 INFO 14516 [egg:core] dump config after load, 5ms
 2022-02-21 17:20:17,070 INFO 14516 [egg-watcher:application] watcher start success
 2022-02-21 17:20:17,076 INFO 14516 [egg:core] dump config after ready, 4ms
+2022-02-22 09:10:36,023 INFO 5920 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:10:36,083 INFO 5920 [egg-multipart] stream mode enable
+2022-02-22 09:10:36,178 INFO 5920 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:10:36,181 INFO 5920 [egg-security] use csrf middleware
+2022-02-22 09:10:36,182 INFO 5920 [egg-security] use methodnoallow middleware
+2022-02-22 09:10:36,182 INFO 5920 [egg-security] use noopen middleware
+2022-02-22 09:10:36,183 INFO 5920 [egg-security] use nosniff middleware
+2022-02-22 09:10:36,183 INFO 5920 [egg-security] use xssProtection middleware
+2022-02-22 09:10:36,184 INFO 5920 [egg-security] use xframe middleware
+2022-02-22 09:10:36,184 INFO 5920 [egg-security] use dta middleware
+2022-02-22 09:10:36,184 INFO 5920 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:10:36,194 INFO 5920 [egg:core] dump config after load, 4ms
+2022-02-22 09:10:36,204 INFO 5920 [egg-watcher:application] watcher start success
+2022-02-22 09:10:36,211 INFO 5920 [egg:core] dump config after ready, 5ms
+2022-02-22 09:43:24,988 INFO 21508 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:43:25,027 INFO 21508 [egg-multipart] stream mode enable
+2022-02-22 09:43:25,090 INFO 21508 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:43:25,092 INFO 21508 [egg-security] use csrf middleware
+2022-02-22 09:43:25,092 INFO 21508 [egg-security] use methodnoallow middleware
+2022-02-22 09:43:25,093 INFO 21508 [egg-security] use noopen middleware
+2022-02-22 09:43:25,093 INFO 21508 [egg-security] use nosniff middleware
+2022-02-22 09:43:25,094 INFO 21508 [egg-security] use xssProtection middleware
+2022-02-22 09:43:25,094 INFO 21508 [egg-security] use xframe middleware
+2022-02-22 09:43:25,094 INFO 21508 [egg-security] use dta middleware
+2022-02-22 09:43:25,094 INFO 21508 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:43:25,103 INFO 21508 [egg:core] dump config after load, 5ms
+2022-02-22 09:43:25,111 INFO 21508 [egg-watcher:application] watcher start success
+2022-02-22 09:43:25,117 INFO 21508 [egg:core] dump config after ready, 4ms
+2022-02-22 09:44:43,243 INFO 20296 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:44:43,284 INFO 20296 [egg-multipart] stream mode enable
+2022-02-22 09:44:43,349 INFO 20296 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:44:43,351 INFO 20296 [egg-security] use csrf middleware
+2022-02-22 09:44:43,351 INFO 20296 [egg-security] use methodnoallow middleware
+2022-02-22 09:44:43,352 INFO 20296 [egg-security] use noopen middleware
+2022-02-22 09:44:43,352 INFO 20296 [egg-security] use nosniff middleware
+2022-02-22 09:44:43,352 INFO 20296 [egg-security] use xssProtection middleware
+2022-02-22 09:44:43,353 INFO 20296 [egg-security] use xframe middleware
+2022-02-22 09:44:43,353 INFO 20296 [egg-security] use dta middleware
+2022-02-22 09:44:43,353 INFO 20296 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:44:43,362 INFO 20296 [egg:core] dump config after load, 4ms
+2022-02-22 09:44:43,369 INFO 20296 [egg-watcher:application] watcher start success
+2022-02-22 09:44:43,375 INFO 20296 [egg:core] dump config after ready, 5ms
+2022-02-22 09:44:57,291 INFO 8112 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:44:57,332 INFO 8112 [egg-multipart] stream mode enable
+2022-02-22 09:44:57,399 INFO 8112 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:44:57,401 INFO 8112 [egg-security] use csrf middleware
+2022-02-22 09:44:57,401 INFO 8112 [egg-security] use methodnoallow middleware
+2022-02-22 09:44:57,402 INFO 8112 [egg-security] use noopen middleware
+2022-02-22 09:44:57,402 INFO 8112 [egg-security] use nosniff middleware
+2022-02-22 09:44:57,403 INFO 8112 [egg-security] use xssProtection middleware
+2022-02-22 09:44:57,403 INFO 8112 [egg-security] use xframe middleware
+2022-02-22 09:44:57,403 INFO 8112 [egg-security] use dta middleware
+2022-02-22 09:44:57,403 INFO 8112 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:44:57,414 INFO 8112 [egg:core] dump config after load, 6ms
+2022-02-22 09:44:57,424 INFO 8112 [egg-watcher:application] watcher start success
+2022-02-22 09:44:57,430 INFO 8112 [egg:core] dump config after ready, 4ms
+2022-02-22 09:45:28,060 INFO 24404 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:45:28,098 INFO 24404 [egg-multipart] stream mode enable
+2022-02-22 09:45:28,163 INFO 24404 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:45:28,165 INFO 24404 [egg-security] use csrf middleware
+2022-02-22 09:45:28,166 INFO 24404 [egg-security] use methodnoallow middleware
+2022-02-22 09:45:28,166 INFO 24404 [egg-security] use noopen middleware
+2022-02-22 09:45:28,167 INFO 24404 [egg-security] use nosniff middleware
+2022-02-22 09:45:28,167 INFO 24404 [egg-security] use xssProtection middleware
+2022-02-22 09:45:28,167 INFO 24404 [egg-security] use xframe middleware
+2022-02-22 09:45:28,168 INFO 24404 [egg-security] use dta middleware
+2022-02-22 09:45:28,168 INFO 24404 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:45:28,176 INFO 24404 [egg:core] dump config after load, 4ms
+2022-02-22 09:45:28,184 INFO 24404 [egg-watcher:application] watcher start success
+2022-02-22 09:45:28,189 INFO 24404 [egg:core] dump config after ready, 4ms
+2022-02-22 09:45:44,840 INFO 8920 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:45:44,881 INFO 8920 [egg-multipart] stream mode enable
+2022-02-22 09:45:44,946 INFO 8920 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:45:44,949 INFO 8920 [egg-security] use csrf middleware
+2022-02-22 09:45:44,949 INFO 8920 [egg-security] use methodnoallow middleware
+2022-02-22 09:45:44,950 INFO 8920 [egg-security] use noopen middleware
+2022-02-22 09:45:44,950 INFO 8920 [egg-security] use nosniff middleware
+2022-02-22 09:45:44,950 INFO 8920 [egg-security] use xssProtection middleware
+2022-02-22 09:45:44,951 INFO 8920 [egg-security] use xframe middleware
+2022-02-22 09:45:44,951 INFO 8920 [egg-security] use dta middleware
+2022-02-22 09:45:44,951 INFO 8920 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:45:44,960 INFO 8920 [egg:core] dump config after load, 5ms
+2022-02-22 09:45:44,967 INFO 8920 [egg-watcher:application] watcher start success
+2022-02-22 09:45:44,973 INFO 8920 [egg:core] dump config after ready, 4ms
+2022-02-22 09:46:01,797 INFO 20596 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:46:01,836 INFO 20596 [egg-multipart] stream mode enable
+2022-02-22 09:46:01,897 INFO 20596 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:46:01,900 INFO 20596 [egg-security] use csrf middleware
+2022-02-22 09:46:01,900 INFO 20596 [egg-security] use methodnoallow middleware
+2022-02-22 09:46:01,901 INFO 20596 [egg-security] use noopen middleware
+2022-02-22 09:46:01,901 INFO 20596 [egg-security] use nosniff middleware
+2022-02-22 09:46:01,901 INFO 20596 [egg-security] use xssProtection middleware
+2022-02-22 09:46:01,902 INFO 20596 [egg-security] use xframe middleware
+2022-02-22 09:46:01,902 INFO 20596 [egg-security] use dta middleware
+2022-02-22 09:46:01,902 INFO 20596 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:46:01,910 INFO 20596 [egg:core] dump config after load, 4ms
+2022-02-22 09:46:01,917 INFO 20596 [egg-watcher:application] watcher start success
+2022-02-22 09:46:01,923 INFO 20596 [egg:core] dump config after ready, 4ms
+2022-02-22 09:46:10,184 INFO 21168 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:46:10,225 INFO 21168 [egg-multipart] stream mode enable
+2022-02-22 09:46:10,290 INFO 21168 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:46:10,292 INFO 21168 [egg-security] use csrf middleware
+2022-02-22 09:46:10,293 INFO 21168 [egg-security] use methodnoallow middleware
+2022-02-22 09:46:10,293 INFO 21168 [egg-security] use noopen middleware
+2022-02-22 09:46:10,293 INFO 21168 [egg-security] use nosniff middleware
+2022-02-22 09:46:10,294 INFO 21168 [egg-security] use xssProtection middleware
+2022-02-22 09:46:10,294 INFO 21168 [egg-security] use xframe middleware
+2022-02-22 09:46:10,295 INFO 21168 [egg-security] use dta middleware
+2022-02-22 09:46:10,295 INFO 21168 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:46:10,303 INFO 21168 [egg:core] dump config after load, 5ms
+2022-02-22 09:46:10,310 INFO 21168 [egg-watcher:application] watcher start success
+2022-02-22 09:46:10,316 INFO 21168 [egg:core] dump config after ready, 4ms
+2022-02-22 09:46:11,908 INFO 24556 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:46:11,947 INFO 24556 [egg-multipart] stream mode enable
+2022-02-22 09:46:12,011 INFO 24556 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:46:12,013 INFO 24556 [egg-security] use csrf middleware
+2022-02-22 09:46:12,014 INFO 24556 [egg-security] use methodnoallow middleware
+2022-02-22 09:46:12,014 INFO 24556 [egg-security] use noopen middleware
+2022-02-22 09:46:12,015 INFO 24556 [egg-security] use nosniff middleware
+2022-02-22 09:46:12,015 INFO 24556 [egg-security] use xssProtection middleware
+2022-02-22 09:46:12,016 INFO 24556 [egg-security] use xframe middleware
+2022-02-22 09:46:12,016 INFO 24556 [egg-security] use dta middleware
+2022-02-22 09:46:12,016 INFO 24556 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:46:12,024 INFO 24556 [egg:core] dump config after load, 4ms
+2022-02-22 09:46:12,032 INFO 24556 [egg-watcher:application] watcher start success
+2022-02-22 09:46:12,038 INFO 24556 [egg:core] dump config after ready, 5ms
+2022-02-22 09:53:59,628 INFO 19240 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:53:59,667 INFO 19240 [egg-multipart] stream mode enable
+2022-02-22 09:53:59,732 INFO 19240 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:53:59,735 INFO 19240 [egg-security] use csrf middleware
+2022-02-22 09:53:59,735 INFO 19240 [egg-security] use methodnoallow middleware
+2022-02-22 09:53:59,735 INFO 19240 [egg-security] use noopen middleware
+2022-02-22 09:53:59,736 INFO 19240 [egg-security] use nosniff middleware
+2022-02-22 09:53:59,736 INFO 19240 [egg-security] use xssProtection middleware
+2022-02-22 09:53:59,737 INFO 19240 [egg-security] use xframe middleware
+2022-02-22 09:53:59,737 INFO 19240 [egg-security] use dta middleware
+2022-02-22 09:53:59,737 INFO 19240 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:53:59,746 INFO 19240 [egg:core] dump config after load, 5ms
+2022-02-22 09:53:59,754 INFO 19240 [egg-watcher:application] watcher start success
+2022-02-22 09:53:59,759 INFO 19240 [egg:core] dump config after ready, 4ms
+2022-02-22 09:54:10,852 INFO 4332 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:54:10,892 INFO 4332 [egg-multipart] stream mode enable
+2022-02-22 09:54:10,956 INFO 4332 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:54:10,958 INFO 4332 [egg-security] use csrf middleware
+2022-02-22 09:54:10,959 INFO 4332 [egg-security] use methodnoallow middleware
+2022-02-22 09:54:10,959 INFO 4332 [egg-security] use noopen middleware
+2022-02-22 09:54:10,959 INFO 4332 [egg-security] use nosniff middleware
+2022-02-22 09:54:10,960 INFO 4332 [egg-security] use xssProtection middleware
+2022-02-22 09:54:10,960 INFO 4332 [egg-security] use xframe middleware
+2022-02-22 09:54:10,961 INFO 4332 [egg-security] use dta middleware
+2022-02-22 09:54:10,961 INFO 4332 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:54:10,969 INFO 4332 [egg:core] dump config after load, 5ms
+2022-02-22 09:54:10,976 INFO 4332 [egg-watcher:application] watcher start success
+2022-02-22 09:54:10,982 INFO 4332 [egg:core] dump config after ready, 4ms
+2022-02-22 09:54:31,539 INFO 22996 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:54:31,579 INFO 22996 [egg-multipart] stream mode enable
+2022-02-22 09:54:31,645 INFO 22996 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:54:31,648 INFO 22996 [egg-security] use csrf middleware
+2022-02-22 09:54:31,648 INFO 22996 [egg-security] use methodnoallow middleware
+2022-02-22 09:54:31,649 INFO 22996 [egg-security] use noopen middleware
+2022-02-22 09:54:31,649 INFO 22996 [egg-security] use nosniff middleware
+2022-02-22 09:54:31,650 INFO 22996 [egg-security] use xssProtection middleware
+2022-02-22 09:54:31,650 INFO 22996 [egg-security] use xframe middleware
+2022-02-22 09:54:31,650 INFO 22996 [egg-security] use dta middleware
+2022-02-22 09:54:31,650 INFO 22996 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:54:31,660 INFO 22996 [egg:core] dump config after load, 6ms
+2022-02-22 09:54:31,668 INFO 22996 [egg-watcher:application] watcher start success
+2022-02-22 09:54:31,674 INFO 22996 [egg:core] dump config after ready, 5ms
+2022-02-22 09:55:09,024 INFO 11708 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 09:55:09,064 INFO 11708 [egg-multipart] stream mode enable
+2022-02-22 09:55:09,131 INFO 11708 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 09:55:09,133 INFO 11708 [egg-security] use csrf middleware
+2022-02-22 09:55:09,134 INFO 11708 [egg-security] use methodnoallow middleware
+2022-02-22 09:55:09,134 INFO 11708 [egg-security] use noopen middleware
+2022-02-22 09:55:09,135 INFO 11708 [egg-security] use nosniff middleware
+2022-02-22 09:55:09,135 INFO 11708 [egg-security] use xssProtection middleware
+2022-02-22 09:55:09,136 INFO 11708 [egg-security] use xframe middleware
+2022-02-22 09:55:09,136 INFO 11708 [egg-security] use dta middleware
+2022-02-22 09:55:09,136 INFO 11708 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 09:55:09,145 INFO 11708 [egg:core] dump config after load, 5ms
+2022-02-22 09:55:09,152 INFO 11708 [egg-watcher:application] watcher start success
+2022-02-22 09:55:09,158 INFO 11708 [egg:core] dump config after ready, 4ms
+2022-02-22 10:01:14,326 INFO 10824 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:01:14,365 INFO 10824 [egg-multipart] stream mode enable
+2022-02-22 10:01:14,430 INFO 10824 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:01:14,432 INFO 10824 [egg-security] use csrf middleware
+2022-02-22 10:01:14,433 INFO 10824 [egg-security] use methodnoallow middleware
+2022-02-22 10:01:14,433 INFO 10824 [egg-security] use noopen middleware
+2022-02-22 10:01:14,434 INFO 10824 [egg-security] use nosniff middleware
+2022-02-22 10:01:14,434 INFO 10824 [egg-security] use xssProtection middleware
+2022-02-22 10:01:14,434 INFO 10824 [egg-security] use xframe middleware
+2022-02-22 10:01:14,435 INFO 10824 [egg-security] use dta middleware
+2022-02-22 10:01:14,435 INFO 10824 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:01:14,445 INFO 10824 [egg:core] dump config after load, 5ms
+2022-02-22 10:01:14,454 INFO 10824 [egg-watcher:application] watcher start success
+2022-02-22 10:01:14,460 INFO 10824 [egg:core] dump config after ready, 4ms
+2022-02-22 10:02:00,232 INFO 22716 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:02:00,272 INFO 22716 [egg-multipart] stream mode enable
+2022-02-22 10:02:00,336 INFO 22716 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:02:00,338 INFO 22716 [egg-security] use csrf middleware
+2022-02-22 10:02:00,338 INFO 22716 [egg-security] use methodnoallow middleware
+2022-02-22 10:02:00,339 INFO 22716 [egg-security] use noopen middleware
+2022-02-22 10:02:00,339 INFO 22716 [egg-security] use nosniff middleware
+2022-02-22 10:02:00,340 INFO 22716 [egg-security] use xssProtection middleware
+2022-02-22 10:02:00,340 INFO 22716 [egg-security] use xframe middleware
+2022-02-22 10:02:00,340 INFO 22716 [egg-security] use dta middleware
+2022-02-22 10:02:00,340 INFO 22716 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:02:00,350 INFO 22716 [egg:core] dump config after load, 5ms
+2022-02-22 10:02:00,357 INFO 22716 [egg-watcher:application] watcher start success
+2022-02-22 10:02:00,362 INFO 22716 [egg:core] dump config after ready, 4ms
+2022-02-22 10:03:34,898 INFO 2576 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:03:34,938 INFO 2576 [egg-multipart] stream mode enable
+2022-02-22 10:03:35,003 INFO 2576 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:03:35,005 INFO 2576 [egg-security] use csrf middleware
+2022-02-22 10:03:35,006 INFO 2576 [egg-security] use methodnoallow middleware
+2022-02-22 10:03:35,006 INFO 2576 [egg-security] use noopen middleware
+2022-02-22 10:03:35,006 INFO 2576 [egg-security] use nosniff middleware
+2022-02-22 10:03:35,007 INFO 2576 [egg-security] use xssProtection middleware
+2022-02-22 10:03:35,007 INFO 2576 [egg-security] use xframe middleware
+2022-02-22 10:03:35,008 INFO 2576 [egg-security] use dta middleware
+2022-02-22 10:03:35,008 INFO 2576 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:03:35,017 INFO 2576 [egg:core] dump config after load, 3ms
+2022-02-22 10:03:35,027 INFO 2576 [egg-watcher:application] watcher start success
+2022-02-22 10:03:35,033 INFO 2576 [egg:core] dump config after ready, 5ms
+2022-02-22 10:04:28,211 INFO 10320 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:04:28,250 INFO 10320 [egg-multipart] stream mode enable
+2022-02-22 10:04:28,316 INFO 10320 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:04:28,319 INFO 10320 [egg-security] use csrf middleware
+2022-02-22 10:04:28,319 INFO 10320 [egg-security] use methodnoallow middleware
+2022-02-22 10:04:28,320 INFO 10320 [egg-security] use noopen middleware
+2022-02-22 10:04:28,320 INFO 10320 [egg-security] use nosniff middleware
+2022-02-22 10:04:28,320 INFO 10320 [egg-security] use xssProtection middleware
+2022-02-22 10:04:28,321 INFO 10320 [egg-security] use xframe middleware
+2022-02-22 10:04:28,321 INFO 10320 [egg-security] use dta middleware
+2022-02-22 10:04:28,321 INFO 10320 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:04:28,330 INFO 10320 [egg:core] dump config after load, 4ms
+2022-02-22 10:04:28,341 INFO 10320 [egg-watcher:application] watcher start success
+2022-02-22 10:04:28,347 INFO 10320 [egg:core] dump config after ready, 4ms
+2022-02-22 10:14:03,937 INFO 15600 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:14:03,977 INFO 15600 [egg-multipart] stream mode enable
+2022-02-22 10:14:04,042 INFO 15600 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:14:04,044 INFO 15600 [egg-security] use csrf middleware
+2022-02-22 10:14:04,045 INFO 15600 [egg-security] use methodnoallow middleware
+2022-02-22 10:14:04,045 INFO 15600 [egg-security] use noopen middleware
+2022-02-22 10:14:04,046 INFO 15600 [egg-security] use nosniff middleware
+2022-02-22 10:14:04,046 INFO 15600 [egg-security] use xssProtection middleware
+2022-02-22 10:14:04,047 INFO 15600 [egg-security] use xframe middleware
+2022-02-22 10:14:04,047 INFO 15600 [egg-security] use dta middleware
+2022-02-22 10:14:04,047 INFO 15600 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:14:04,056 INFO 15600 [egg:core] dump config after load, 4ms
+2022-02-22 10:14:04,063 INFO 15600 [egg-watcher:application] watcher start success
+2022-02-22 10:14:04,069 INFO 15600 [egg:core] dump config after ready, 4ms
+2022-02-22 10:17:41,283 INFO 16668 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:17:41,323 INFO 16668 [egg-multipart] stream mode enable
+2022-02-22 10:17:41,387 INFO 16668 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:17:41,390 INFO 16668 [egg-security] use csrf middleware
+2022-02-22 10:17:41,390 INFO 16668 [egg-security] use methodnoallow middleware
+2022-02-22 10:17:41,391 INFO 16668 [egg-security] use noopen middleware
+2022-02-22 10:17:41,391 INFO 16668 [egg-security] use nosniff middleware
+2022-02-22 10:17:41,392 INFO 16668 [egg-security] use xssProtection middleware
+2022-02-22 10:17:41,392 INFO 16668 [egg-security] use xframe middleware
+2022-02-22 10:17:41,392 INFO 16668 [egg-security] use dta middleware
+2022-02-22 10:17:41,392 INFO 16668 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:17:41,401 INFO 16668 [egg:core] dump config after load, 4ms
+2022-02-22 10:17:41,409 INFO 16668 [egg-watcher:application] watcher start success
+2022-02-22 10:17:41,415 INFO 16668 [egg:core] dump config after ready, 4ms
+2022-02-22 10:22:56,937 INFO 8856 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:22:56,977 INFO 8856 [egg-multipart] stream mode enable
+2022-02-22 10:22:57,044 INFO 8856 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:22:57,046 INFO 8856 [egg-security] use csrf middleware
+2022-02-22 10:22:57,047 INFO 8856 [egg-security] use methodnoallow middleware
+2022-02-22 10:22:57,047 INFO 8856 [egg-security] use noopen middleware
+2022-02-22 10:22:57,047 INFO 8856 [egg-security] use nosniff middleware
+2022-02-22 10:22:57,048 INFO 8856 [egg-security] use xssProtection middleware
+2022-02-22 10:22:57,048 INFO 8856 [egg-security] use xframe middleware
+2022-02-22 10:22:57,049 INFO 8856 [egg-security] use dta middleware
+2022-02-22 10:22:57,049 INFO 8856 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:22:57,058 INFO 8856 [egg:core] dump config after load, 4ms
+2022-02-22 10:22:57,065 INFO 8856 [egg-watcher:application] watcher start success
+2022-02-22 10:22:57,071 INFO 8856 [egg:core] dump config after ready, 4ms
+2022-02-22 10:26:29,468 INFO 7064 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:26:29,507 INFO 7064 [egg-multipart] stream mode enable
+2022-02-22 10:26:29,569 INFO 7064 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:26:29,571 INFO 7064 [egg-security] use csrf middleware
+2022-02-22 10:26:29,572 INFO 7064 [egg-security] use methodnoallow middleware
+2022-02-22 10:26:29,572 INFO 7064 [egg-security] use noopen middleware
+2022-02-22 10:26:29,573 INFO 7064 [egg-security] use nosniff middleware
+2022-02-22 10:26:29,573 INFO 7064 [egg-security] use xssProtection middleware
+2022-02-22 10:26:29,574 INFO 7064 [egg-security] use xframe middleware
+2022-02-22 10:26:29,574 INFO 7064 [egg-security] use dta middleware
+2022-02-22 10:26:29,574 INFO 7064 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:26:29,583 INFO 7064 [egg:core] dump config after load, 5ms
+2022-02-22 10:26:29,590 INFO 7064 [egg-watcher:application] watcher start success
+2022-02-22 10:26:29,595 INFO 7064 [egg:core] dump config after ready, 4ms
+2022-02-22 10:26:59,569 INFO 20640 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:26:59,608 INFO 20640 [egg-multipart] stream mode enable
+2022-02-22 10:26:59,672 INFO 20640 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:26:59,674 INFO 20640 [egg-security] use csrf middleware
+2022-02-22 10:26:59,675 INFO 20640 [egg-security] use methodnoallow middleware
+2022-02-22 10:26:59,675 INFO 20640 [egg-security] use noopen middleware
+2022-02-22 10:26:59,675 INFO 20640 [egg-security] use nosniff middleware
+2022-02-22 10:26:59,676 INFO 20640 [egg-security] use xssProtection middleware
+2022-02-22 10:26:59,676 INFO 20640 [egg-security] use xframe middleware
+2022-02-22 10:26:59,677 INFO 20640 [egg-security] use dta middleware
+2022-02-22 10:26:59,677 INFO 20640 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:26:59,686 INFO 20640 [egg:core] dump config after load, 5ms
+2022-02-22 10:26:59,693 INFO 20640 [egg-watcher:application] watcher start success
+2022-02-22 10:26:59,698 INFO 20640 [egg:core] dump config after ready, 4ms
+2022-02-22 10:27:14,543 INFO 9048 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:27:14,582 INFO 9048 [egg-multipart] stream mode enable
+2022-02-22 10:27:14,645 INFO 9048 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:27:14,647 INFO 9048 [egg-security] use csrf middleware
+2022-02-22 10:27:14,648 INFO 9048 [egg-security] use methodnoallow middleware
+2022-02-22 10:27:14,648 INFO 9048 [egg-security] use noopen middleware
+2022-02-22 10:27:14,648 INFO 9048 [egg-security] use nosniff middleware
+2022-02-22 10:27:14,649 INFO 9048 [egg-security] use xssProtection middleware
+2022-02-22 10:27:14,649 INFO 9048 [egg-security] use xframe middleware
+2022-02-22 10:27:14,650 INFO 9048 [egg-security] use dta middleware
+2022-02-22 10:27:14,650 INFO 9048 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:27:14,659 INFO 9048 [egg:core] dump config after load, 5ms
+2022-02-22 10:27:14,666 INFO 9048 [egg-watcher:application] watcher start success
+2022-02-22 10:27:14,672 INFO 9048 [egg:core] dump config after ready, 4ms
+2022-02-22 10:28:08,776 INFO 8964 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:28:08,816 INFO 8964 [egg-multipart] stream mode enable
+2022-02-22 10:28:08,881 INFO 8964 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:28:08,883 INFO 8964 [egg-security] use csrf middleware
+2022-02-22 10:28:08,883 INFO 8964 [egg-security] use methodnoallow middleware
+2022-02-22 10:28:08,884 INFO 8964 [egg-security] use noopen middleware
+2022-02-22 10:28:08,884 INFO 8964 [egg-security] use nosniff middleware
+2022-02-22 10:28:08,885 INFO 8964 [egg-security] use xssProtection middleware
+2022-02-22 10:28:08,885 INFO 8964 [egg-security] use xframe middleware
+2022-02-22 10:28:08,885 INFO 8964 [egg-security] use dta middleware
+2022-02-22 10:28:08,885 INFO 8964 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:28:08,895 INFO 8964 [egg:core] dump config after load, 5ms
+2022-02-22 10:28:08,902 INFO 8964 [egg-watcher:application] watcher start success
+2022-02-22 10:28:08,907 INFO 8964 [egg:core] dump config after ready, 4ms
+2022-02-22 10:28:15,825 INFO 20688 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:28:15,869 INFO 20688 [egg-multipart] stream mode enable
+2022-02-22 10:28:15,933 INFO 20688 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:28:15,936 INFO 20688 [egg-security] use csrf middleware
+2022-02-22 10:28:15,936 INFO 20688 [egg-security] use methodnoallow middleware
+2022-02-22 10:28:15,937 INFO 20688 [egg-security] use noopen middleware
+2022-02-22 10:28:15,937 INFO 20688 [egg-security] use nosniff middleware
+2022-02-22 10:28:15,937 INFO 20688 [egg-security] use xssProtection middleware
+2022-02-22 10:28:15,938 INFO 20688 [egg-security] use xframe middleware
+2022-02-22 10:28:15,938 INFO 20688 [egg-security] use dta middleware
+2022-02-22 10:28:15,938 INFO 20688 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:28:15,947 INFO 20688 [egg:core] dump config after load, 4ms
+2022-02-22 10:28:15,955 INFO 20688 [egg-watcher:application] watcher start success
+2022-02-22 10:28:15,961 INFO 20688 [egg:core] dump config after ready, 5ms
+2022-02-22 10:28:26,280 INFO 7768 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:28:26,321 INFO 7768 [egg-multipart] stream mode enable
+2022-02-22 10:28:26,388 INFO 7768 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:28:26,390 INFO 7768 [egg-security] use csrf middleware
+2022-02-22 10:28:26,390 INFO 7768 [egg-security] use methodnoallow middleware
+2022-02-22 10:28:26,391 INFO 7768 [egg-security] use noopen middleware
+2022-02-22 10:28:26,391 INFO 7768 [egg-security] use nosniff middleware
+2022-02-22 10:28:26,392 INFO 7768 [egg-security] use xssProtection middleware
+2022-02-22 10:28:26,392 INFO 7768 [egg-security] use xframe middleware
+2022-02-22 10:28:26,393 INFO 7768 [egg-security] use dta middleware
+2022-02-22 10:28:26,393 INFO 7768 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:28:26,403 INFO 7768 [egg:core] dump config after load, 5ms
+2022-02-22 10:28:26,410 INFO 7768 [egg-watcher:application] watcher start success
+2022-02-22 10:28:26,416 INFO 7768 [egg:core] dump config after ready, 5ms
+2022-02-22 10:43:28,074 INFO 168 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:43:28,114 INFO 168 [egg-multipart] stream mode enable
+2022-02-22 10:43:28,177 INFO 168 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:43:28,180 INFO 168 [egg-security] use csrf middleware
+2022-02-22 10:43:28,180 INFO 168 [egg-security] use methodnoallow middleware
+2022-02-22 10:43:28,181 INFO 168 [egg-security] use noopen middleware
+2022-02-22 10:43:28,181 INFO 168 [egg-security] use nosniff middleware
+2022-02-22 10:43:28,181 INFO 168 [egg-security] use xssProtection middleware
+2022-02-22 10:43:28,182 INFO 168 [egg-security] use xframe middleware
+2022-02-22 10:43:28,182 INFO 168 [egg-security] use dta middleware
+2022-02-22 10:43:28,182 INFO 168 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:43:28,192 INFO 168 [egg:core] dump config after load, 5ms
+2022-02-22 10:43:28,199 INFO 168 [egg-watcher:application] watcher start success
+2022-02-22 10:43:28,205 INFO 168 [egg:core] dump config after ready, 5ms
+2022-02-22 10:44:11,269 INFO 19100 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:44:11,311 INFO 19100 [egg-multipart] stream mode enable
+2022-02-22 10:44:11,377 INFO 19100 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:44:11,379 INFO 19100 [egg-security] use csrf middleware
+2022-02-22 10:44:11,380 INFO 19100 [egg-security] use methodnoallow middleware
+2022-02-22 10:44:11,380 INFO 19100 [egg-security] use noopen middleware
+2022-02-22 10:44:11,381 INFO 19100 [egg-security] use nosniff middleware
+2022-02-22 10:44:11,381 INFO 19100 [egg-security] use xssProtection middleware
+2022-02-22 10:44:11,381 INFO 19100 [egg-security] use xframe middleware
+2022-02-22 10:44:11,382 INFO 19100 [egg-security] use dta middleware
+2022-02-22 10:44:11,382 INFO 19100 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:44:11,391 INFO 19100 [egg:core] dump config after load, 3ms
+2022-02-22 10:44:11,398 INFO 19100 [egg-watcher:application] watcher start success
+2022-02-22 10:44:11,404 INFO 19100 [egg:core] dump config after ready, 4ms
+2022-02-22 10:44:35,714 INFO 16120 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:44:35,754 INFO 16120 [egg-multipart] stream mode enable
+2022-02-22 10:44:35,818 INFO 16120 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:44:35,820 INFO 16120 [egg-security] use csrf middleware
+2022-02-22 10:44:35,820 INFO 16120 [egg-security] use methodnoallow middleware
+2022-02-22 10:44:35,821 INFO 16120 [egg-security] use noopen middleware
+2022-02-22 10:44:35,821 INFO 16120 [egg-security] use nosniff middleware
+2022-02-22 10:44:35,822 INFO 16120 [egg-security] use xssProtection middleware
+2022-02-22 10:44:35,822 INFO 16120 [egg-security] use xframe middleware
+2022-02-22 10:44:35,822 INFO 16120 [egg-security] use dta middleware
+2022-02-22 10:44:35,822 INFO 16120 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:44:35,832 INFO 16120 [egg:core] dump config after load, 5ms
+2022-02-22 10:44:35,839 INFO 16120 [egg-watcher:application] watcher start success
+2022-02-22 10:44:35,845 INFO 16120 [egg:core] dump config after ready, 4ms
+2022-02-22 10:44:42,520 INFO 2804 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:44:42,560 INFO 2804 [egg-multipart] stream mode enable
+2022-02-22 10:44:42,623 INFO 2804 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:44:42,626 INFO 2804 [egg-security] use csrf middleware
+2022-02-22 10:44:42,626 INFO 2804 [egg-security] use methodnoallow middleware
+2022-02-22 10:44:42,627 INFO 2804 [egg-security] use noopen middleware
+2022-02-22 10:44:42,627 INFO 2804 [egg-security] use nosniff middleware
+2022-02-22 10:44:42,628 INFO 2804 [egg-security] use xssProtection middleware
+2022-02-22 10:44:42,628 INFO 2804 [egg-security] use xframe middleware
+2022-02-22 10:44:42,628 INFO 2804 [egg-security] use dta middleware
+2022-02-22 10:44:42,628 INFO 2804 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:44:42,638 INFO 2804 [egg:core] dump config after load, 5ms
+2022-02-22 10:44:42,645 INFO 2804 [egg-watcher:application] watcher start success
+2022-02-22 10:44:42,651 INFO 2804 [egg:core] dump config after ready, 4ms
+2022-02-22 10:45:22,003 INFO 6460 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:45:22,044 INFO 6460 [egg-multipart] stream mode enable
+2022-02-22 10:45:22,107 INFO 6460 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:45:22,109 INFO 6460 [egg-security] use csrf middleware
+2022-02-22 10:45:22,109 INFO 6460 [egg-security] use methodnoallow middleware
+2022-02-22 10:45:22,110 INFO 6460 [egg-security] use noopen middleware
+2022-02-22 10:45:22,110 INFO 6460 [egg-security] use nosniff middleware
+2022-02-22 10:45:22,111 INFO 6460 [egg-security] use xssProtection middleware
+2022-02-22 10:45:22,111 INFO 6460 [egg-security] use xframe middleware
+2022-02-22 10:45:22,111 INFO 6460 [egg-security] use dta middleware
+2022-02-22 10:45:22,112 INFO 6460 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:45:22,121 INFO 6460 [egg:core] dump config after load, 5ms
+2022-02-22 10:45:22,128 INFO 6460 [egg-watcher:application] watcher start success
+2022-02-22 10:45:22,134 INFO 6460 [egg:core] dump config after ready, 5ms
+2022-02-22 10:45:34,104 INFO 17900 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:45:34,142 INFO 17900 [egg-multipart] stream mode enable
+2022-02-22 10:45:34,206 INFO 17900 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:45:34,208 INFO 17900 [egg-security] use csrf middleware
+2022-02-22 10:45:34,208 INFO 17900 [egg-security] use methodnoallow middleware
+2022-02-22 10:45:34,209 INFO 17900 [egg-security] use noopen middleware
+2022-02-22 10:45:34,209 INFO 17900 [egg-security] use nosniff middleware
+2022-02-22 10:45:34,210 INFO 17900 [egg-security] use xssProtection middleware
+2022-02-22 10:45:34,210 INFO 17900 [egg-security] use xframe middleware
+2022-02-22 10:45:34,210 INFO 17900 [egg-security] use dta middleware
+2022-02-22 10:45:34,210 INFO 17900 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:45:34,220 INFO 17900 [egg:core] dump config after load, 5ms
+2022-02-22 10:45:34,229 INFO 17900 [egg-watcher:application] watcher start success
+2022-02-22 10:45:34,235 INFO 17900 [egg:core] dump config after ready, 5ms
+2022-02-22 10:46:03,020 INFO 6240 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:46:03,059 INFO 6240 [egg-multipart] stream mode enable
+2022-02-22 10:46:03,122 INFO 6240 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:46:03,125 INFO 6240 [egg-security] use csrf middleware
+2022-02-22 10:46:03,125 INFO 6240 [egg-security] use methodnoallow middleware
+2022-02-22 10:46:03,126 INFO 6240 [egg-security] use noopen middleware
+2022-02-22 10:46:03,126 INFO 6240 [egg-security] use nosniff middleware
+2022-02-22 10:46:03,126 INFO 6240 [egg-security] use xssProtection middleware
+2022-02-22 10:46:03,127 INFO 6240 [egg-security] use xframe middleware
+2022-02-22 10:46:03,127 INFO 6240 [egg-security] use dta middleware
+2022-02-22 10:46:03,127 INFO 6240 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:46:03,136 INFO 6240 [egg:core] dump config after load, 4ms
+2022-02-22 10:46:03,143 INFO 6240 [egg-watcher:application] watcher start success
+2022-02-22 10:46:03,149 INFO 6240 [egg:core] dump config after ready, 4ms
+2022-02-22 10:46:05,020 INFO 7360 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 10:46:05,061 INFO 7360 [egg-multipart] stream mode enable
+2022-02-22 10:46:05,127 INFO 7360 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 10:46:05,129 INFO 7360 [egg-security] use csrf middleware
+2022-02-22 10:46:05,130 INFO 7360 [egg-security] use methodnoallow middleware
+2022-02-22 10:46:05,130 INFO 7360 [egg-security] use noopen middleware
+2022-02-22 10:46:05,131 INFO 7360 [egg-security] use nosniff middleware
+2022-02-22 10:46:05,131 INFO 7360 [egg-security] use xssProtection middleware
+2022-02-22 10:46:05,131 INFO 7360 [egg-security] use xframe middleware
+2022-02-22 10:46:05,132 INFO 7360 [egg-security] use dta middleware
+2022-02-22 10:46:05,132 INFO 7360 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 10:46:05,141 INFO 7360 [egg:core] dump config after load, 4ms
+2022-02-22 10:46:05,149 INFO 7360 [egg-watcher:application] watcher start success
+2022-02-22 10:46:05,155 INFO 7360 [egg:core] dump config after ready, 4ms
+2022-02-22 11:07:17,770 INFO 5004 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:07:17,811 INFO 5004 [egg-multipart] stream mode enable
+2022-02-22 11:07:17,879 INFO 5004 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:07:17,882 INFO 5004 [egg-security] use csrf middleware
+2022-02-22 11:07:17,883 INFO 5004 [egg-security] use methodnoallow middleware
+2022-02-22 11:07:17,883 INFO 5004 [egg-security] use noopen middleware
+2022-02-22 11:07:17,884 INFO 5004 [egg-security] use nosniff middleware
+2022-02-22 11:07:17,884 INFO 5004 [egg-security] use xssProtection middleware
+2022-02-22 11:07:17,885 INFO 5004 [egg-security] use xframe middleware
+2022-02-22 11:07:17,885 INFO 5004 [egg-security] use dta middleware
+2022-02-22 11:07:17,885 INFO 5004 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:07:17,895 INFO 5004 [egg:core] dump config after load, 5ms
+2022-02-22 11:07:17,903 INFO 5004 [egg-watcher:application] watcher start success
+2022-02-22 11:07:17,909 INFO 5004 [egg:core] dump config after ready, 4ms
+2022-02-22 11:07:21,538 INFO 11352 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:07:21,576 INFO 11352 [egg-multipart] stream mode enable
+2022-02-22 11:07:21,638 INFO 11352 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:07:21,640 INFO 11352 [egg-security] use csrf middleware
+2022-02-22 11:07:21,641 INFO 11352 [egg-security] use methodnoallow middleware
+2022-02-22 11:07:21,641 INFO 11352 [egg-security] use noopen middleware
+2022-02-22 11:07:21,642 INFO 11352 [egg-security] use nosniff middleware
+2022-02-22 11:07:21,642 INFO 11352 [egg-security] use xssProtection middleware
+2022-02-22 11:07:21,643 INFO 11352 [egg-security] use xframe middleware
+2022-02-22 11:07:21,643 INFO 11352 [egg-security] use dta middleware
+2022-02-22 11:07:21,643 INFO 11352 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:07:21,652 INFO 11352 [egg:core] dump config after load, 4ms
+2022-02-22 11:07:21,659 INFO 11352 [egg-watcher:application] watcher start success
+2022-02-22 11:07:21,665 INFO 11352 [egg:core] dump config after ready, 4ms
+2022-02-22 11:07:28,833 INFO 7092 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:07:28,872 INFO 7092 [egg-multipart] stream mode enable
+2022-02-22 11:07:28,935 INFO 7092 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:07:28,938 INFO 7092 [egg-security] use csrf middleware
+2022-02-22 11:07:28,938 INFO 7092 [egg-security] use methodnoallow middleware
+2022-02-22 11:07:28,938 INFO 7092 [egg-security] use noopen middleware
+2022-02-22 11:07:28,939 INFO 7092 [egg-security] use nosniff middleware
+2022-02-22 11:07:28,939 INFO 7092 [egg-security] use xssProtection middleware
+2022-02-22 11:07:28,940 INFO 7092 [egg-security] use xframe middleware
+2022-02-22 11:07:28,940 INFO 7092 [egg-security] use dta middleware
+2022-02-22 11:07:28,940 INFO 7092 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:07:28,950 INFO 7092 [egg:core] dump config after load, 5ms
+2022-02-22 11:07:28,960 INFO 7092 [egg-watcher:application] watcher start success
+2022-02-22 11:07:28,966 INFO 7092 [egg:core] dump config after ready, 5ms
+2022-02-22 11:12:12,956 INFO 23156 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:12:12,997 INFO 23156 [egg-multipart] stream mode enable
+2022-02-22 11:12:13,061 INFO 23156 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:12:13,063 INFO 23156 [egg-security] use csrf middleware
+2022-02-22 11:12:13,064 INFO 23156 [egg-security] use methodnoallow middleware
+2022-02-22 11:12:13,064 INFO 23156 [egg-security] use noopen middleware
+2022-02-22 11:12:13,064 INFO 23156 [egg-security] use nosniff middleware
+2022-02-22 11:12:13,065 INFO 23156 [egg-security] use xssProtection middleware
+2022-02-22 11:12:13,065 INFO 23156 [egg-security] use xframe middleware
+2022-02-22 11:12:13,066 INFO 23156 [egg-security] use dta middleware
+2022-02-22 11:12:13,066 INFO 23156 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:12:13,075 INFO 23156 [egg:core] dump config after load, 4ms
+2022-02-22 11:12:13,083 INFO 23156 [egg-watcher:application] watcher start success
+2022-02-22 11:12:13,089 INFO 23156 [egg:core] dump config after ready, 5ms
+2022-02-22 11:13:25,255 INFO 7860 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:13:25,295 INFO 7860 [egg-multipart] stream mode enable
+2022-02-22 11:13:25,359 INFO 7860 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:13:25,362 INFO 7860 [egg-security] use csrf middleware
+2022-02-22 11:13:25,362 INFO 7860 [egg-security] use methodnoallow middleware
+2022-02-22 11:13:25,363 INFO 7860 [egg-security] use noopen middleware
+2022-02-22 11:13:25,363 INFO 7860 [egg-security] use nosniff middleware
+2022-02-22 11:13:25,364 INFO 7860 [egg-security] use xssProtection middleware
+2022-02-22 11:13:25,364 INFO 7860 [egg-security] use xframe middleware
+2022-02-22 11:13:25,365 INFO 7860 [egg-security] use dta middleware
+2022-02-22 11:13:25,365 INFO 7860 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:13:25,374 INFO 7860 [egg:core] dump config after load, 4ms
+2022-02-22 11:13:25,382 INFO 7860 [egg-watcher:application] watcher start success
+2022-02-22 11:13:25,388 INFO 7860 [egg:core] dump config after ready, 4ms
+2022-02-22 11:13:41,165 INFO 14400 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:13:41,207 INFO 14400 [egg-multipart] stream mode enable
+2022-02-22 11:13:41,273 INFO 14400 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:13:41,275 INFO 14400 [egg-security] use csrf middleware
+2022-02-22 11:13:41,276 INFO 14400 [egg-security] use methodnoallow middleware
+2022-02-22 11:13:41,276 INFO 14400 [egg-security] use noopen middleware
+2022-02-22 11:13:41,277 INFO 14400 [egg-security] use nosniff middleware
+2022-02-22 11:13:41,277 INFO 14400 [egg-security] use xssProtection middleware
+2022-02-22 11:13:41,277 INFO 14400 [egg-security] use xframe middleware
+2022-02-22 11:13:41,278 INFO 14400 [egg-security] use dta middleware
+2022-02-22 11:13:41,278 INFO 14400 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:13:41,287 INFO 14400 [egg:core] dump config after load, 4ms
+2022-02-22 11:13:41,294 INFO 14400 [egg-watcher:application] watcher start success
+2022-02-22 11:13:41,300 INFO 14400 [egg:core] dump config after ready, 5ms
+2022-02-22 11:13:43,209 INFO 7264 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:13:43,255 INFO 7264 [egg-multipart] stream mode enable
+2022-02-22 11:13:43,324 INFO 7264 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:13:43,326 INFO 7264 [egg-security] use csrf middleware
+2022-02-22 11:13:43,327 INFO 7264 [egg-security] use methodnoallow middleware
+2022-02-22 11:13:43,327 INFO 7264 [egg-security] use noopen middleware
+2022-02-22 11:13:43,327 INFO 7264 [egg-security] use nosniff middleware
+2022-02-22 11:13:43,328 INFO 7264 [egg-security] use xssProtection middleware
+2022-02-22 11:13:43,328 INFO 7264 [egg-security] use xframe middleware
+2022-02-22 11:13:43,329 INFO 7264 [egg-security] use dta middleware
+2022-02-22 11:13:43,329 INFO 7264 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:13:43,338 INFO 7264 [egg:core] dump config after load, 4ms
+2022-02-22 11:13:43,346 INFO 7264 [egg-watcher:application] watcher start success
+2022-02-22 11:13:43,352 INFO 7264 [egg:core] dump config after ready, 4ms
+2022-02-22 11:14:20,031 INFO 11416 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:14:20,070 INFO 11416 [egg-multipart] stream mode enable
+2022-02-22 11:14:20,134 INFO 11416 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:14:20,136 INFO 11416 [egg-security] use csrf middleware
+2022-02-22 11:14:20,136 INFO 11416 [egg-security] use methodnoallow middleware
+2022-02-22 11:14:20,137 INFO 11416 [egg-security] use noopen middleware
+2022-02-22 11:14:20,137 INFO 11416 [egg-security] use nosniff middleware
+2022-02-22 11:14:20,138 INFO 11416 [egg-security] use xssProtection middleware
+2022-02-22 11:14:20,138 INFO 11416 [egg-security] use xframe middleware
+2022-02-22 11:14:20,138 INFO 11416 [egg-security] use dta middleware
+2022-02-22 11:14:20,138 INFO 11416 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:14:20,148 INFO 11416 [egg:core] dump config after load, 5ms
+2022-02-22 11:14:20,158 INFO 11416 [egg-watcher:application] watcher start success
+2022-02-22 11:14:20,164 INFO 11416 [egg:core] dump config after ready, 5ms
+2022-02-22 11:14:23,939 INFO 6124 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:14:23,980 INFO 6124 [egg-multipart] stream mode enable
+2022-02-22 11:14:24,046 INFO 6124 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:14:24,048 INFO 6124 [egg-security] use csrf middleware
+2022-02-22 11:14:24,049 INFO 6124 [egg-security] use methodnoallow middleware
+2022-02-22 11:14:24,049 INFO 6124 [egg-security] use noopen middleware
+2022-02-22 11:14:24,049 INFO 6124 [egg-security] use nosniff middleware
+2022-02-22 11:14:24,050 INFO 6124 [egg-security] use xssProtection middleware
+2022-02-22 11:14:24,050 INFO 6124 [egg-security] use xframe middleware
+2022-02-22 11:14:24,051 INFO 6124 [egg-security] use dta middleware
+2022-02-22 11:14:24,051 INFO 6124 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:14:24,060 INFO 6124 [egg:core] dump config after load, 4ms
+2022-02-22 11:14:24,068 INFO 6124 [egg-watcher:application] watcher start success
+2022-02-22 11:14:24,073 INFO 6124 [egg:core] dump config after ready, 4ms
+2022-02-22 11:14:48,762 INFO 9436 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:14:48,802 INFO 9436 [egg-multipart] stream mode enable
+2022-02-22 11:14:48,867 INFO 9436 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:14:48,869 INFO 9436 [egg-security] use csrf middleware
+2022-02-22 11:14:48,870 INFO 9436 [egg-security] use methodnoallow middleware
+2022-02-22 11:14:48,870 INFO 9436 [egg-security] use noopen middleware
+2022-02-22 11:14:48,871 INFO 9436 [egg-security] use nosniff middleware
+2022-02-22 11:14:48,871 INFO 9436 [egg-security] use xssProtection middleware
+2022-02-22 11:14:48,871 INFO 9436 [egg-security] use xframe middleware
+2022-02-22 11:14:48,872 INFO 9436 [egg-security] use dta middleware
+2022-02-22 11:14:48,872 INFO 9436 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:14:48,881 INFO 9436 [egg:core] dump config after load, 4ms
+2022-02-22 11:14:48,888 INFO 9436 [egg-watcher:application] watcher start success
+2022-02-22 11:14:48,894 INFO 9436 [egg:core] dump config after ready, 4ms
+2022-02-22 11:14:50,853 INFO 2484 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:14:50,894 INFO 2484 [egg-multipart] stream mode enable
+2022-02-22 11:14:50,961 INFO 2484 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:14:50,964 INFO 2484 [egg-security] use csrf middleware
+2022-02-22 11:14:50,964 INFO 2484 [egg-security] use methodnoallow middleware
+2022-02-22 11:14:50,964 INFO 2484 [egg-security] use noopen middleware
+2022-02-22 11:14:50,965 INFO 2484 [egg-security] use nosniff middleware
+2022-02-22 11:14:50,965 INFO 2484 [egg-security] use xssProtection middleware
+2022-02-22 11:14:50,966 INFO 2484 [egg-security] use xframe middleware
+2022-02-22 11:14:50,966 INFO 2484 [egg-security] use dta middleware
+2022-02-22 11:14:50,966 INFO 2484 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:14:50,976 INFO 2484 [egg:core] dump config after load, 5ms
+2022-02-22 11:14:50,984 INFO 2484 [egg-watcher:application] watcher start success
+2022-02-22 11:14:50,990 INFO 2484 [egg:core] dump config after ready, 5ms
+2022-02-22 11:16:51,435 INFO 11836 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:16:51,475 INFO 11836 [egg-multipart] stream mode enable
+2022-02-22 11:16:51,542 INFO 11836 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:16:51,544 INFO 11836 [egg-security] use csrf middleware
+2022-02-22 11:16:51,545 INFO 11836 [egg-security] use methodnoallow middleware
+2022-02-22 11:16:51,545 INFO 11836 [egg-security] use noopen middleware
+2022-02-22 11:16:51,546 INFO 11836 [egg-security] use nosniff middleware
+2022-02-22 11:16:51,546 INFO 11836 [egg-security] use xssProtection middleware
+2022-02-22 11:16:51,546 INFO 11836 [egg-security] use xframe middleware
+2022-02-22 11:16:51,547 INFO 11836 [egg-security] use dta middleware
+2022-02-22 11:16:51,547 INFO 11836 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:16:51,556 INFO 11836 [egg:core] dump config after load, 4ms
+2022-02-22 11:16:51,563 INFO 11836 [egg-watcher:application] watcher start success
+2022-02-22 11:16:51,569 INFO 11836 [egg:core] dump config after ready, 4ms
+2022-02-22 11:23:56,942 INFO 836 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:23:56,985 INFO 836 [egg-multipart] stream mode enable
+2022-02-22 11:23:57,057 INFO 836 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:23:57,059 INFO 836 [egg-security] use csrf middleware
+2022-02-22 11:23:57,060 INFO 836 [egg-security] use methodnoallow middleware
+2022-02-22 11:23:57,060 INFO 836 [egg-security] use noopen middleware
+2022-02-22 11:23:57,061 INFO 836 [egg-security] use nosniff middleware
+2022-02-22 11:23:57,062 INFO 836 [egg-security] use xssProtection middleware
+2022-02-22 11:23:57,062 INFO 836 [egg-security] use xframe middleware
+2022-02-22 11:23:57,062 INFO 836 [egg-security] use dta middleware
+2022-02-22 11:23:57,062 INFO 836 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:23:57,072 INFO 836 [egg:core] dump config after load, 4ms
+2022-02-22 11:23:57,081 INFO 836 [egg-watcher:application] watcher start success
+2022-02-22 11:23:57,088 INFO 836 [egg:core] dump config after ready, 5ms
+2022-02-22 11:24:34,602 INFO 11660 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:24:34,643 INFO 11660 [egg-multipart] stream mode enable
+2022-02-22 11:24:34,709 INFO 11660 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:24:34,712 INFO 11660 [egg-security] use csrf middleware
+2022-02-22 11:24:34,712 INFO 11660 [egg-security] use methodnoallow middleware
+2022-02-22 11:24:34,713 INFO 11660 [egg-security] use noopen middleware
+2022-02-22 11:24:34,713 INFO 11660 [egg-security] use nosniff middleware
+2022-02-22 11:24:34,713 INFO 11660 [egg-security] use xssProtection middleware
+2022-02-22 11:24:34,714 INFO 11660 [egg-security] use xframe middleware
+2022-02-22 11:24:34,714 INFO 11660 [egg-security] use dta middleware
+2022-02-22 11:24:34,714 INFO 11660 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:24:34,724 INFO 11660 [egg:core] dump config after load, 4ms
+2022-02-22 11:24:34,731 INFO 11660 [egg-watcher:application] watcher start success
+2022-02-22 11:24:34,737 INFO 11660 [egg:core] dump config after ready, 4ms
+2022-02-22 11:24:39,534 INFO 19432 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:24:39,574 INFO 19432 [egg-multipart] stream mode enable
+2022-02-22 11:24:39,639 INFO 19432 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:24:39,642 INFO 19432 [egg-security] use csrf middleware
+2022-02-22 11:24:39,642 INFO 19432 [egg-security] use methodnoallow middleware
+2022-02-22 11:24:39,643 INFO 19432 [egg-security] use noopen middleware
+2022-02-22 11:24:39,643 INFO 19432 [egg-security] use nosniff middleware
+2022-02-22 11:24:39,643 INFO 19432 [egg-security] use xssProtection middleware
+2022-02-22 11:24:39,645 INFO 19432 [egg-security] use xframe middleware
+2022-02-22 11:24:39,645 INFO 19432 [egg-security] use dta middleware
+2022-02-22 11:24:39,645 INFO 19432 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:24:39,654 INFO 19432 [egg:core] dump config after load, 4ms
+2022-02-22 11:24:39,661 INFO 19432 [egg-watcher:application] watcher start success
+2022-02-22 11:24:39,667 INFO 19432 [egg:core] dump config after ready, 5ms
+2022-02-22 11:24:44,561 INFO 8180 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:24:44,604 INFO 8180 [egg-multipart] stream mode enable
+2022-02-22 11:24:44,673 INFO 8180 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:24:44,675 INFO 8180 [egg-security] use csrf middleware
+2022-02-22 11:24:44,675 INFO 8180 [egg-security] use methodnoallow middleware
+2022-02-22 11:24:44,676 INFO 8180 [egg-security] use noopen middleware
+2022-02-22 11:24:44,676 INFO 8180 [egg-security] use nosniff middleware
+2022-02-22 11:24:44,677 INFO 8180 [egg-security] use xssProtection middleware
+2022-02-22 11:24:44,678 INFO 8180 [egg-security] use xframe middleware
+2022-02-22 11:24:44,678 INFO 8180 [egg-security] use dta middleware
+2022-02-22 11:24:44,678 INFO 8180 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:24:44,687 INFO 8180 [egg:core] dump config after load, 4ms
+2022-02-22 11:24:44,695 INFO 8180 [egg-watcher:application] watcher start success
+2022-02-22 11:24:44,700 INFO 8180 [egg:core] dump config after ready, 4ms
+2022-02-22 11:25:34,929 INFO 11360 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:25:34,970 INFO 11360 [egg-multipart] stream mode enable
+2022-02-22 11:25:35,035 INFO 11360 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:25:35,037 INFO 11360 [egg-security] use csrf middleware
+2022-02-22 11:25:35,038 INFO 11360 [egg-security] use methodnoallow middleware
+2022-02-22 11:25:35,038 INFO 11360 [egg-security] use noopen middleware
+2022-02-22 11:25:35,039 INFO 11360 [egg-security] use nosniff middleware
+2022-02-22 11:25:35,039 INFO 11360 [egg-security] use xssProtection middleware
+2022-02-22 11:25:35,040 INFO 11360 [egg-security] use xframe middleware
+2022-02-22 11:25:35,040 INFO 11360 [egg-security] use dta middleware
+2022-02-22 11:25:35,040 INFO 11360 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:25:35,050 INFO 11360 [egg:core] dump config after load, 3ms
+2022-02-22 11:25:35,057 INFO 11360 [egg-watcher:application] watcher start success
+2022-02-22 11:25:35,063 INFO 11360 [egg:core] dump config after ready, 5ms
+2022-02-22 11:25:39,722 INFO 22472 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:25:39,763 INFO 22472 [egg-multipart] stream mode enable
+2022-02-22 11:25:39,844 INFO 22472 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:25:39,847 INFO 22472 [egg-security] use csrf middleware
+2022-02-22 11:25:39,847 INFO 22472 [egg-security] use methodnoallow middleware
+2022-02-22 11:25:39,847 INFO 22472 [egg-security] use noopen middleware
+2022-02-22 11:25:39,849 INFO 22472 [egg-security] use nosniff middleware
+2022-02-22 11:25:39,849 INFO 22472 [egg-security] use xssProtection middleware
+2022-02-22 11:25:39,850 INFO 22472 [egg-security] use xframe middleware
+2022-02-22 11:25:39,850 INFO 22472 [egg-security] use dta middleware
+2022-02-22 11:25:39,850 INFO 22472 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:25:39,859 INFO 22472 [egg:core] dump config after load, 4ms
+2022-02-22 11:25:39,868 INFO 22472 [egg-watcher:application] watcher start success
+2022-02-22 11:25:39,874 INFO 22472 [egg:core] dump config after ready, 5ms
+2022-02-22 11:58:49,765 INFO 17676 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 11:58:49,847 INFO 17676 [egg-multipart] stream mode enable
+2022-02-22 11:58:49,935 INFO 17676 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 11:58:49,938 INFO 17676 [egg-security] use csrf middleware
+2022-02-22 11:58:49,938 INFO 17676 [egg-security] use methodnoallow middleware
+2022-02-22 11:58:49,939 INFO 17676 [egg-security] use noopen middleware
+2022-02-22 11:58:49,939 INFO 17676 [egg-security] use nosniff middleware
+2022-02-22 11:58:49,939 INFO 17676 [egg-security] use xssProtection middleware
+2022-02-22 11:58:49,940 INFO 17676 [egg-security] use xframe middleware
+2022-02-22 11:58:49,941 INFO 17676 [egg-security] use dta middleware
+2022-02-22 11:58:49,941 INFO 17676 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 11:58:49,950 INFO 17676 [egg:core] dump config after load, 4ms
+2022-02-22 11:58:49,958 INFO 17676 [egg-watcher:application] watcher start success
+2022-02-22 11:58:49,964 INFO 17676 [egg:core] dump config after ready, 4ms
+2022-02-22 13:33:28,986 INFO 2564 [egg:logger] init all loggers with options: {"dir":"C:\\Users\\liuqi\\work\\node-server\\logs\\hackernews","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"hackernews-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"enablePerformanceTimer":false,"type":"application"}
+2022-02-22 13:33:29,028 INFO 2564 [egg-multipart] stream mode enable
+2022-02-22 13:33:29,097 INFO 2564 [egg-static] starting static serve /public/ -> C:\Users\liuqi\work\node-server\app\public
+2022-02-22 13:33:29,100 INFO 2564 [egg-security] use csrf middleware
+2022-02-22 13:33:29,100 INFO 2564 [egg-security] use methodnoallow middleware
+2022-02-22 13:33:29,101 INFO 2564 [egg-security] use noopen middleware
+2022-02-22 13:33:29,101 INFO 2564 [egg-security] use nosniff middleware
+2022-02-22 13:33:29,102 INFO 2564 [egg-security] use xssProtection middleware
+2022-02-22 13:33:29,102 INFO 2564 [egg-security] use xframe middleware
+2022-02-22 13:33:29,103 INFO 2564 [egg-security] use dta middleware
+2022-02-22 13:33:29,103 INFO 2564 [egg-security] compose 7 middlewares into one security middleware
+2022-02-22 13:33:29,112 INFO 2564 [egg:core] dump config after load, 4ms
+2022-02-22 13:33:29,120 INFO 2564 [egg-watcher:application] watcher start success
+2022-02-22 13:33:29,126 INFO 2564 [egg:core] dump config after ready, 5ms
