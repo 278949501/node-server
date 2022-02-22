@@ -82,7 +82,7 @@ const checkSign = (timestamp, nonce, signature, token) => {
 
 class WxController extends Controller {
 	// 测试接口
-	async index() {
+	async token() {
 		const { ctx } = this
 		const query = ctx.request.query
 		const signature = query.signature
@@ -100,7 +100,7 @@ class WxController extends Controller {
 	}
 
 	// 获取签名
-	async sign() {
+	async config() {
 		const { ctx } = this
 		let url = ctx.query.url // 获取前端传递的url
 		let timestamp = getTimestamp() // 时间戳
@@ -121,6 +121,16 @@ class WxController extends Controller {
 				nonceStr, // 必填，生成签名的随机串
 				signature, // 必填，签名
 			},
+		}
+	}
+
+	// 用户信息
+	async userInfo() {
+		const { ctx } = this
+		ctx.body = {
+			code: 0,
+			msg: '',
+			data: {},
 		}
 	}
 }

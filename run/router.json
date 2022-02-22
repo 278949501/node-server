@@ -79,8 +79,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/wxtoken",
-    "regexp": "/^\\/api\\/wxtoken(?:\\/(?=$))?$/",
+    "path": "/api/wx/token",
+    "regexp": "/^\\/api\\/wx\\/token(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -92,8 +92,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/test/write",
-    "regexp": "/^\\/test\\/write(?:\\/(?=$))?$/",
+    "path": "/api/wx/token",
+    "regexp": "/^\\/api\\/wx\\/token(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -105,8 +105,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/wxtoken",
-    "regexp": "/^\\/api\\/wxtoken(?:\\/(?=$))?$/",
+    "path": "/api/wx/config",
+    "regexp": "/^\\/api\\/wx\\/config(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -118,8 +118,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/wxsign",
-    "regexp": "/^\\/api\\/wxsign(?:\\/(?=$))?$/",
+    "path": "/api/wx/userInfo",
+    "regexp": "/^\\/api\\/wx\\/userInfo(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

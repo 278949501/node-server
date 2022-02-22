@@ -6,8 +6,8 @@ module.exports = app => {
 	router.get('/news/item/:id', controller.news.detail)
 	router.get('/news/user/:id', controller.news.user)
 	//
-	router.post('createPost', '/api/wxtoken', controller.wx.index)
-	router.get('/test/write', controller.test.write)
-	router.get('/api/wxtoken', controller.wx.index)
-	router.get('/api/wxsign', controller.wx.sign)
+	router.post('createPost', '/api/wx/token', controller.wx.token)
+	router.get('/api/wx/token', controller.wx.token)
+	router.get('/api/wx/config', controller.wx.config)
+	router.get('/api/wx/userInfo', controller.wx.userInfo)
 }
