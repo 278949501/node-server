@@ -927,3 +927,323 @@ hostname: DESKTOP-BJSIQE6
 pid: 7860
 hostname: DESKTOP-BJSIQE6
 
+2022-02-23 09:27:20,859 ERROR 14164 [-/undefined/-/21043ms GET /news] nodejs.RequestError: connect ETIMEDOUT 35.201.97.85:443, GET https://hacker-news.firebaseio.com/v0/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":61,"createSocketErrorCount":0,"closeSocketCount":60,"errorSocketCount":1,"timeoutSocketCount":60,"requestCount":62,"freeSockets":{},"sockets":{"hacker-news.firebaseio.com:443:::::::::::::::::::::":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1148:16)
+errno: -4039
+code: "ETIMEDOUT"
+syscall: "connect"
+address: "35.201.97.85"
+port: 443
+name: "RequestError"
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%2229%22"
+status: -1
+headers: {}
+res: {"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":21039,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+headerSent: true
+pid: 14164
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:08:47,879 ERROR 23448 [-/192.168.11.186/-/12ms GET /api/wechat/config] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../../config/wxConfig/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\config.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\config.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:32:9)
+    at WxConfigController.index (C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:84:29)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wechat\\config.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+headers: {"Access-Control-Allow-Origin":"http://192.168.11.186:3000","vary":"Origin"}
+name: "MODULE_NOT_FOUNDError"
+pid: 23448
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:09:06,051 ERROR 23448 [-/192.168.11.186/-/2ms GET /api/wechat/config] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../../config/wxConfig/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\config.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\config.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:32:9)
+    at WxConfigController.index (C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:84:29)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wechat\\config.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+headers: {"Access-Control-Allow-Origin":"http://192.168.11.186:3000","vary":"Origin"}
+name: "MODULE_NOT_FOUNDError"
+pid: 23448
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:09:18,347 ERROR 23448 [-/192.168.11.186/-/2ms GET /api/wechat/config] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../../config/wxConfig/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\config.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\config.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:32:9)
+    at WxConfigController.index (C:\Users\liuqi\work\node-server\app\controller\wechat\config.js:84:29)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wechat\\config.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 23448
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:11:01,248 ERROR 13236 [-/192.168.11.186/-/8ms GET /api/wechat/config] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../../config/wxConfig/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:32:9)
+    at WxGetConfigController.index (C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:84:29)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wechat\\getConfig.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 13236
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:11:02,771 ERROR 13236 [-/192.168.11.186/-/2ms GET /api/wechat/config] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../../config/wxConfig/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:32:9)
+    at WxGetConfigController.index (C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:84:29)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wechat\\getConfig.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 13236
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:11:11,584 ERROR 2132 [-/192.168.11.186/-/8ms GET /api/wechat/config2] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../../config/wxConfig/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:32:9)
+    at WxGetConfigController.index (C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:84:29)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wechat\\getConfig.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 2132
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:11:12,908 ERROR 2132 [-/192.168.11.186/-/3ms GET /api/wechat/config2] nodejs.MODULE_NOT_FOUNDError: Cannot find module '../../config/wxConfig/accessToken.json'
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+Require stack:
+- C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\egg.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-core\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\lib\application.js
+- C:\Users\liuqi\work\node-server\node_modules\egg\index.js
+- C:\Users\liuqi\work\node-server\node_modules\egg-cluster\lib\app_worker.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+    at Module.require (internal/modules/cjs/loader.js:974:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:34:21
+    at new Promise (<anonymous>)
+    at getAccessToken (C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:32:9)
+    at WxGetConfigController.index (C:\Users\liuqi\work\node-server\app\controller\wechat\getConfig.js:84:29)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+code: "MODULE_NOT_FOUND"
+requireStack: ["C:\\Users\\liuqi\\work\\node-server\\app\\controller\\wechat\\getConfig.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\utils\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\lib\\egg.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-core\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\lib\\application.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg\\index.js","C:\\Users\\liuqi\\work\\node-server\\node_modules\\egg-cluster\\lib\\app_worker.js"]
+name: "MODULE_NOT_FOUNDError"
+pid: 2132
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:29:25,634 ERROR 3832 nodejs.ReferenceError: data is not defined (uncaughtException throw 1 times on pid:3832)
+    at IncomingMessage.<anonymous> (C:\Users\liuqi\work\node-server\app\controller\wechat\userInfo.js:25:10)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+pid: 3832
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 11:29:51,556 ERROR 1916 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:1916)
+    at IncomingMessage.<anonymous> (C:\Users\liuqi\work\node-server\app\controller\wechat\userInfo.js:27:5)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+pid: 1916
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 12:50:07,741 ERROR 15428 nodejs.ClusterClientNoResponseError: client no response in 231052ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\liuqi\work\node-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 15428
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 12:50:10,998 ERROR 23160 nodejs.ENOTFOUNDError: getaddrinfo ENOTFOUND api.weixin.qq.com (uncaughtException throw 1 times on pid:23160)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:69:26)
+errno: -3008
+code: "ENOTFOUND"
+syscall: "getaddrinfo"
+hostname: "api.weixin.qq.com"
+name: "ENOTFOUNDError"
+pid: 23160
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 13:39:22,213 ERROR 9392 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:9392)
+    at IncomingMessage.<anonymous> (C:\Users\liuqi\work\node-server\app\controller\wechat\userInfo.js:27:5)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+pid: 9392
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 13:41:10,903 ERROR 16248 nodejs.ReferenceError: resolve is not defined (uncaughtException throw 1 times on pid:16248)
+    at IncomingMessage.<anonymous> (C:\Users\liuqi\work\node-server\app\controller\wechat\userInfo.js:27:5)
+    at IncomingMessage.emit (events.js:387:35)
+    at endReadableNT (internal/streams/readable.js:1317:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+pid: 16248
+hostname: DESKTOP-BJSIQE6
+
+2022-02-23 14:24:30,200 ERROR 14772 [-/192.168.11.186/-/1ms GET /api/wechat/userInfo?code=091F7wFa1d1fHC0TNvIa1EhDRi4F7wFS] nodejs.ReferenceError: Cannot access 'ctx' before initialization
+    at WxUserInfoController.index (C:\Users\liuqi\work\node-server\app\controller\wechat\userInfo.js:7:16)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\liuqi\work\node-server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\lib\router.js:186:18
+    at dispatch (C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\liuqi\work\node-server\node_modules\@eggjs\router\node_modules\koa-compose\index.js:36:12
+headers: {"Access-Control-Allow-Origin":"http://192.168.11.186:3000","vary":"Origin"}
+pid: 14772
+hostname: DESKTOP-BJSIQE6
+

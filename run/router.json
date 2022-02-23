@@ -79,8 +79,8 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/api/wx/token",
-    "regexp": "/^\\/api\\/wx\\/token(?:\\/(?=$))?$/",
+    "path": "/api/wechat/signature",
+    "regexp": "/^\\/api\\/wechat\\/signature(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -92,8 +92,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/wx/token",
-    "regexp": "/^\\/api\\/wx\\/token(?:\\/(?=$))?$/",
+    "path": "/api/wechat/signature",
+    "regexp": "/^\\/api\\/wechat\\/signature(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -105,8 +105,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/wx/config",
-    "regexp": "/^\\/api\\/wx\\/config(?:\\/(?=$))?$/",
+    "path": "/api/wechat/config",
+    "regexp": "/^\\/api\\/wechat\\/config(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -118,8 +118,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/wx/userInfo",
-    "regexp": "/^\\/api\\/wx\\/userInfo(?:\\/(?=$))?$/",
+    "path": "/api/wechat/userInfo",
+    "regexp": "/^\\/api\\/wechat\\/userInfo(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

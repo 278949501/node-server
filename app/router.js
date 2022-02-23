@@ -6,8 +6,12 @@ module.exports = app => {
 	router.get('/news/item/:id', controller.news.detail)
 	router.get('/news/user/:id', controller.news.user)
 	//
-	router.post('createPost', '/api/wx/token', controller.wx.token)
-	router.get('/api/wx/token', controller.wx.token)
-	router.get('/api/wx/config', controller.wx.config)
-	router.get('/api/wx/userInfo', controller.wx.userInfo)
+	router.post(
+		'createPost',
+		'/api/wechat/signature',
+		controller.wechat.signature.index,
+	)
+	router.get('/api/wechat/signature', controller.wechat.signature.index)
+	router.get('/api/wechat/config', controller.wechat.config.index)
+	router.get('/api/wechat/userInfo', controller.wechat.userInfo.index)
 }
