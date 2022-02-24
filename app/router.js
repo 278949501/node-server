@@ -11,7 +11,9 @@ module.exports = app => {
 		'/api/wechat/signature',
 		controller.wechat.signature.index,
 	)
+	//
 	router.get('/api/wechat/signature', controller.wechat.signature.index)
 	router.get('/api/wechat/config', controller.wechat.config.index)
 	router.get('/api/wechat/userInfo', controller.wechat.userInfo.index)
+	router.get('/api/wechat/login', controller.wechat.login.index)
 }

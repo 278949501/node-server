@@ -1132,3 +1132,39 @@
 2022-02-23 15:56:39,391 INFO 8336 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2022-02-23 15:56:39,391 INFO 8336 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
 2022-02-23 15:56:39,391 INFO 8336 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 09:09:32,971 INFO 9312 [Timer] C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 69627031ms at 2022-02-25 04:30:00.002
+2022-02-24 09:09:32,971 INFO 9312 [Timer] C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 53427029ms at 2022-02-25 00:00:00.000
+2022-02-24 09:09:32,972 INFO 9312 [Timer] C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 53428029ms at 2022-02-25 00:00:01.001
+2022-02-24 09:09:32,845 INFO 15428 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 09:09:32,845 INFO 15428 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 09:09:32,845 INFO 15428 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:28:56,445 INFO 20516 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:28:56,445 INFO 20516 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:28:56,445 INFO 20516 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:29:54,424 INFO 20152 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:29:54,424 INFO 20152 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:29:54,424 INFO 20152 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:29:56,472 INFO 24040 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:29:56,472 INFO 24040 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:29:56,472 INFO 24040 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:30:42,854 INFO 18856 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:30:42,854 INFO 18856 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:30:42,854 INFO 18856 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:30:58,697 INFO 18112 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:30:58,697 INFO 18112 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:30:58,697 INFO 18112 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:31:34,516 INFO 14652 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:31:34,516 INFO 14652 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:31:34,516 INFO 14652 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:31:51,915 INFO 4368 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:31:51,915 INFO 4368 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:31:51,915 INFO 4368 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:31:58,317 INFO 21360 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:31:58,318 INFO 21360 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:31:58,318 INFO 21360 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 11:32:02,220 INFO 18644 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 11:32:02,220 INFO 18644 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 11:32:02,220 INFO 18644 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2022-02-24 18:28:55,279 INFO 20868 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2022-02-24 18:28:55,279 INFO 20868 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2022-02-24 18:28:55,279 INFO 20868 [egg-schedule]: register schedule C:\Users\liuqi\work\node-server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

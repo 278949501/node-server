@@ -5,6 +5,15 @@ class WxUserInfoController extends Controller {
 	// 获取用户信息
 	async index() {
 		const { ctx } = this
+		ctx.body = {
+			code: 0,
+			msg: '',
+			data: {
+				name: 'liuqi',
+				openid: '67',
+			},
+		}
+		return
 		// 检查 code
 		const code = ctx.query.code
 		if (!code) {

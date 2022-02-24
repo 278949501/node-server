@@ -1247,3 +1247,27 @@ headers: {"Access-Control-Allow-Origin":"http://192.168.11.186:3000","vary":"Ori
 pid: 14772
 hostname: DESKTOP-BJSIQE6
 
+2022-02-24 12:48:46,654 ERROR 9312 nodejs.ClusterClientNoResponseError: client no response in 244225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\liuqi\work\node-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9312
+hostname: DESKTOP-BJSIQE6
+
+2022-02-24 17:09:41,502 ERROR 9312 nodejs.ClusterClientNoResponseError: client no response in 3093708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\liuqi\work\node-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 9312
+hostname: DESKTOP-BJSIQE6
+
+2022-02-24 17:09:41,514 ERROR 18644 nodejs.ServerNoResponseError: server 127.0.0.1:65410 no response in 20002ms, maybe the socket is end on the other side. (address: 127.0.0.1:65410)
+    at Timeout._onTimeout (C:\Users\liuqi\work\node-server\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ServerNoResponseError"
+pid: 18644
+hostname: DESKTOP-BJSIQE6
+
