@@ -1271,3 +1271,11 @@ name: "ServerNoResponseError"
 pid: 18644
 hostname: DESKTOP-BJSIQE6
 
+2022-02-25 13:31:11,623 ERROR 21456 nodejs.ClusterClientNoResponseError: client no response in 2706363ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (C:\Users\liuqi\work\node-server\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:557:17)
+    at processTimers (internal/timers.js:500:7)
+name: "ClusterClientNoResponseError"
+pid: 21456
+hostname: DESKTOP-BJSIQE6
+
